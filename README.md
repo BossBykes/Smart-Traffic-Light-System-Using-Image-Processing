@@ -1,4 +1,4 @@
-# 🚦 Smart Traffic Light System Using Image Processing
+# Smart Traffic Light System Using Image Processing
 
 ## The Problem That Bugs Me Every Day
 
@@ -6,19 +6,19 @@ You know that feeling when you're sitting at a red light for 2 minutes with ZERO
 
 That's exactly what inspired this project! I thought, "There has to be a better way than these dumb, timer-based traffic lights that have been around since the 1960s." So I built one using computer vision and MATLAB.
 
-## 🎯 What This Actually Does
+## What This Actually Does
 
 Instead of blindly following pre-programmed timers, this system:
 
-- **👁️ Watches traffic in real-time** using camera feeds
-- **🔢 Counts vehicles** in each lane automatically  
-- **🧠 Makes smart decisions** about light timing based on actual traffic density
-- **⚡ Adapts instantly** to changing traffic conditions
-- **📈 Optimizes flow** to reduce waiting times and congestion
+- **Watches traffic in real-time** using camera feeds
+- **Counts vehicles** in each lane automatically  
+- **Makes smart decisions** about light timing based on actual traffic density
+- **Adapts instantly** to changing traffic conditions
+- **Optimizes flow** to reduce waiting times and congestion
 
 Think of it as giving traffic lights a brain and eyes instead of just a basic timer!
 
-## 🛠️ How I Built This
+## How I Built This
 
 **Core Technology:**
 - **MATLAB** for image processing and control logic
@@ -43,7 +43,7 @@ function vehicle_count = countVehicles(traffic_image)
 end
 ```
 
-## 🚀 The Smart Logic Behind It
+## The Smart Logic Behind It
 
 ### Traditional Traffic Lights (Dumb):
 ```
@@ -71,7 +71,7 @@ end
 4. **Fairness Algorithm** - Ensures no direction waits too long
 5. **Emergency Override** - Can detect emergency vehicles (future feature)
 
-## 📊 Vehicle Detection Pipeline
+## Vehicle Detection Pipeline
 
 ```
 [Camera Feed] → [Image Preprocessing] → [Background Subtraction] → [Vehicle Detection]
@@ -85,7 +85,7 @@ end
 - Current light status and remaining time
 - Traffic density graphs and statistics
 
-## 😅 Challenges That Made Me Question Life Choices
+## Challenges That Made Me Question Life Choices
 
 **Vehicle Detection Accuracy:** Getting MATLAB to reliably distinguish between cars, trucks, and shadows was trickier than expected. Spent days tuning the background subtraction algorithm and dealing with changing lighting conditions.
 
@@ -97,7 +97,7 @@ end
 
 **Calibration Nightmare:** Each intersection has different camera angles and distances. Built a calibration system to adapt the detection parameters for different setups.
 
-## 🧠 What I Learned (Besides Patience)
+## What I Learned (Besides Patience)
 
 **Technical Skills:**
 - **Computer Vision** - Object detection, background subtraction, morphological operations
@@ -112,7 +112,7 @@ end
 - Real-time constraints force you to optimize like crazy
 - Traffic engineering is more complex than it looks!
 
-## 📈 Performance Results
+## Performance Results
 
 **Before (Traditional Timer-based):**
 - Average wait time: 45-90 seconds
@@ -125,15 +125,15 @@ end
 - Efficiency: ~85% optimal
 - Adaptation time: <10 seconds to traffic changes
 
-## 🔄 Current Features vs Future Vision
+## Current Features vs Future Vision
 
-**✅ What Works Now:**
+**What Works Now:**
 - Real-time vehicle detection and counting
 - Dynamic light timing based on traffic density
 - Multi-lane analysis and comparison
 - Traffic flow optimization
 
-**🚀 Next Level Features:**
+**Next Level Features:**
 - [ ] Emergency vehicle detection and priority
 - [ ] Pedestrian crossing integration
 - [ ] Network-wide traffic coordination
@@ -141,7 +141,7 @@ end
 - [ ] Mobile app integration for traffic updates
 - [ ] Integration with city traffic management systems
 
-## 💭 Why This Matters
+## Why This Matters
 
 This isn't just a cool tech demo - it addresses real urban problems:
 
@@ -153,7 +153,7 @@ This isn't just a cool tech demo - it addresses real urban problems:
 
 Cities worldwide are moving toward intelligent transportation systems, and this project demonstrates the core technology behind that transformation.
 
-## 🌍 Real-World Impact Potential
+## Real-World Impact Potential
 
 If implemented city-wide, systems like this could:
 - **Reduce commute times by 20-30%**
@@ -164,12 +164,12 @@ If implemented city-wide, systems like this could:
 
 The technology I developed here is essentially what companies like Siemens and Philips are implementing in smart cities around the world!
 
-## 🏷️ Technologies Used
+## Technologies Used
 
 `MATLAB` `Computer-Vision` `Image-Processing` `Traffic-Engineering` `Control-Systems` `Smart-Cities` `Vehicle-Detection` `Urban-Technology`
 
 ---
 
-**Built with MATLAB, caffeine, and a deep hatred for inefficient traffic lights 🚦**
+**Built with MATLAB, caffeine, and a deep hatred for inefficient traffic lights**
 
 *Every time I sit at a pointless red light now, I think "I literally built a solution for this!" This project opened my eyes to how much of our urban infrastructure could be smarter with the right application of computer vision and control theory.*
